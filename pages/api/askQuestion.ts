@@ -17,12 +17,10 @@ export default async function handler(
 
     if (!prompt) {
         res.status(400).json({answer: "Please provide a prompt!"});
-        alert('error1')
         return;
     }
 
     if (!chatId){
-        alert('error1')
         res.status(400).json({answer: 'Please provide a valid ID'})
     }
 

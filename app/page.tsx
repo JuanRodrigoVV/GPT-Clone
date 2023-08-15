@@ -10,10 +10,10 @@ export default function HomePage() {
       <h1 className='text-5xl font-bold mb-20'>Chat GPT</h1>
 
       <div className='flex flex-row space-x-2 text-center'>
-        {/* Column 1 */}
+      
         <div>
           <div className='flex flex-col items-center justify-center mb-5'>
-             {/* sun icon */}
+        
              <SunIcon className="h-8 w-8" />
              <h2>Examplesss</h2>
 
@@ -27,10 +27,10 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Column 2 */}
+ 
         <div>
           <div className='flex flex-col items-center justify-center mb-5'>
-             {/* sun icon */}
+            
              <BoltIcon className="h-8 w-8" />
              <h2>Capabilities</h2>
 
@@ -43,10 +43,10 @@ export default function HomePage() {
           
           </div>
         </div>
-        {/* Column 3 */}
+
         <div>
           <div className='flex flex-col items-center justify-center mb-5'>
-             {/* sun icon */}
+ 
              <ExclamationTriangleIcon className="h-8 w-8" />
              <h2>Limitations</h2>
 
